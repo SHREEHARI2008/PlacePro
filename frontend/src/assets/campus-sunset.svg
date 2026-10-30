@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" preserveAspectRatio="xMidYMid slice" width="100%" height="100%">
+  <defs>
+    <!-- Sunset Sky Gradient -->
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4a154b" />
+      <stop offset="25%" stop-color="#7a285a" />
+      <stop offset="55%" stop-color="#c85a53" />
+      <stop offset="80%" stop-color="#e27c59" />
+      <stop offset="100%" stop-color="#f5aa76" />
+    </linearGradient>
+
+    <!-- Mountain Gradient -->
+    <linearGradient id="mountGradFar" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#6b2d5c" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#b85d68" stop-opacity="0.5" />
+    </linearGradient>
+
+    <linearGradient id="mountGradNear" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3c133c" />
+      <stop offset="100%" stop-color="#702c4b" />
+    </linearGradient>
+
+    <radialGradient id="bulbGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fffbeb" />
+      <stop offset="40%" stop-color="#fef08a" />
+      <stop offset="70%" stop-color="#f59e0b" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#d97706" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Sky Background -->
+  <rect width="1200" height="300" fill="url(#skyGrad)" />
+
+  <!-- Distant Dunes and Mountains Layer 1 -->
+  <path d="M 0 240 Q 180 180 340 225 T 700 215 T 1050 210 T 1200 230 L 1200 300 L 0 300 Z" fill="url(#mountGradFar)" />
+
+  <!-- Midground Mountains / Dunes Layer 2 -->
+  <path d="M 0 255 C 120 230 260 215 390 240 C 500 260 620 220 740 235 C 880 250 1020 230 1200 245 L 1200 300 L 0 300 Z" fill="url(#mountGradNear)" opacity="0.9" />
+
+  <!-- Ground Layer -->
+  <path d="M 0 270 Q 250 250 520 270 T 1000 265 T 1200 275 L 1200 300 L 0 300 Z" fill="#2d0f32" />
+
+  <!-- Right Side Campus Gazebo / Bungalow Pavilion -->
+  <!-- Roof Pagoda / Pitch -->
+  <path d="M 880 160 L 980 135 L 1080 160 L 1070 170 L 890 170 Z" fill="#260c2b" />
+  <path d="M 940 135 L 980 120 L 1020 135 Z" fill="#1f0923" />
+  <!-- Upper Dormer / Window structure -->
+  <rect x="945" y="145" width="70" height="40" fill="#38133d" />
+  <!-- Window Panes -->
+  <rect x="955" y="150" width="22" height="30" fill="#fde68a" opacity="0.85" />
+  <rect x="983" y="150" width="22" height="30" fill="#fde68a" opacity="0.85" />
+  <line x1="966" y1="150" x2="966" y2="180" stroke="#260c2b" stroke-width="2" />
+  <line x1="994" y1="150" x2="994" y2="180" stroke="#260c2b" stroke-width="2" />
+
+  <!-- Main House Structure -->
+  <polygon points="780,240 850,195 1180,195 1200,240" fill="#301035" />
+  <!-- Lower Roof Eaves -->
+  <polygon points="770,242 850,193 1180,193 1200,242" fill="#200924" />
+  <rect x="830" y="240" width="370" height="60" fill="#260c2b" />
+
+  <!-- Balcony Railing -->
+  <line x1="840" y1="210" x2="1160" y2="210" stroke="#4a1b4d" stroke-width="4" />
+  <line x1="840" y1="228" x2="1160" y2="228" stroke="#4a1b4d" stroke-width="3" />
+  <!-- Vertical Posts -->
+  <g stroke="#3c143f" stroke-width="2">
+    <line x1="855" y1="210" x2="855" y2="228" />
+    <line x1="885" y1="210" x2="885" y2="228" />
+    <line x1="915" y1="210" x2="915" y2="228" />
+    <line x1="945" y1="210" x2="945" y2="228" />
+    <line x1="975" y1="210" x2="975" y2="228" />
+    <line x1="1005" y1="210" x2="1005" y2="228" />
+    <line x1="1035" y1="210" x2="1035" y2="228" />
+    <line x1="1065" y1="210" x2="1065" y2="228" />
+    <line x1="1095" y1="210" x2="1095" y2="228" />
+    <line x1="1125" y1="210" x2="1125" y2="228" />
+    <line x1="1155" y1="210" x2="1155" y2="228" />
+  </g>
+
+  <!-- Palm Trees (Silhouettes) -->
+  <!-- Tall Slender Palm Trunk Center-Right -->
+  <path d="M 750 300 Q 755 220 740 130 Q 738 125 745 130 Q 762 220 758 300 Z" fill="#220a26" />
+  <!-- Palm Fronds -->
+  <g fill="#1f0923">
+    <!-- Frond 1 -->
+    <path d="M 740 130 Q 690 120 660 160 Q 690 145 740 130 Z" />
+    <!-- Frond 2 -->
+    <path d="M 740 130 Q 680 150 670 190 Q 700 165 740 130 Z" />
+    <!-- Frond 3 -->
+    <path d="M 740 130 Q 720 100 700 90 Q 725 110 740 130 Z" />
+    <!-- Frond 4 -->
+    <path d="M 740 130 Q 760 100 790 105 Q 765 115 740 130 Z" />
+    <!-- Frond 5 -->
+    <path d="M 740 130 Q 780 130 810 165 Q 775 145 740 130 Z" />
+    <!-- Frond 6 -->
+    <path d="M 740 130 Q 770 160 765 200 Q 760 170 740 130 Z" />
+  </g>
+
+  <!-- Left Slanted Palm Tree -->
+  <path d="M 525 300 Q 515 220 500 130 Q 498 125 504 130 Q 525 220 535 300 Z" fill="#220a26" />
+  <g fill="#240b28">
+    <path d="M 500 130 Q 450 120 420 160 Q 450 145 500 130 Z" />
+    <path d="M 500 130 Q 440 150 430 190 Q 460 165 500 130 Z" />
+    <path d="M 500 130 Q 480 100 460 90 Q 485 110 500 130 Z" />
+    <path d="M 500 130 Q 520 100 550 105 Q 525 115 500 130 Z" />
+    <path d="M 500 130 Q 540 130 570 165 Q 535 145 500 130 Z" />
+  </g>
+
+  <!-- Fairy String Lights hanging across the sky -->
+  <!-- Wire Droop 1 -->
+  <path d="M 0 145 Q 80 195 160 150 Q 240 195 320 145 Q 400 190 480 145 Q 560 190 640 150" 
+        fill="none" stroke="#2b0d30" stroke-width="1.8" />
+  <!-- Wire Droop 2 -->
+  <path d="M 640 150 Q 720 195 800 150 Q 880 190 960 145" 
+        fill="none" stroke="#2b0d30" stroke-width="1.8" />
+
+  <!-- Hanging Glowing Yellow Bulbs -->
+  <!-- Bulb 1 -->
+  <circle cx="80" cy="180" r="11" fill="url(#bulbGlow)" />
+  <circle cx="80" cy="180" r="5" fill="#fef08a" />
+  <line x1="80" y1="172" x2="80" y2="176" stroke="#2b0d30" stroke-width="1.5" />
+
+  <!-- Bulb 2 -->
+  <circle cx="160" cy="150" r="10" fill="url(#bulbGlow)" />
+  <circle cx="160" cy="150" r="4.5" fill="#fef08a" />
+
+  <!-- Bulb 3 -->
+  <circle cx="240" cy="180" r="12" fill="url(#bulbGlow)" />
+  <circle cx="240" cy="180" r="5.5" fill="#fef08a" />
+  <line x1="240" y1="172" x2="240" y2="176" stroke="#2b0d30" stroke-width="1.5" />
+
+  <!-- Bulb 4 -->
+  <circle cx="320" cy="145" r="10" fill="url(#bulbGlow)" />
+  <circle cx="320" cy="145" r="4.5" fill="#fef08a" />
+
+  <!-- Bulb 5 -->
+  <circle cx="400" cy="176" r="12" fill="url(#bulbGlow)" />
+  <circle cx="400" cy="176" r="5.5" fill="#fef08a" />
+  <line x1="400" y1="168" x2="400" y2="172" stroke="#2b0d30" stroke-width="1.5" />
+
+  <!-- Bulb 6 -->
+  <circle cx="480" cy="145" r="10" fill="url(#bulbGlow)" />
+  <circle cx="480" cy="145" r="4.5" fill="#fef08a" />
+
+  <!-- Bulb 7 -->
+  <circle cx="560" cy="178" r="11" fill="url(#bulbGlow)" />
+  <circle cx="560" cy="178" r="5" fill="#fef08a" />
+  <line x1="560" y1="170" x2="560" y2="174" stroke="#2b0d30" stroke-width="1.5" />
+
+  <!-- Bulb 8 -->
+  <circle cx="720" cy="182" r="11" fill="url(#bulbGlow)" />
+  <circle cx="720" cy="182" r="5" fill="#fef08a" />
+  <line x1="720" y1="174" x2="720" y2="178" stroke="#2b0d30" stroke-width="1.5" />
+
+  <!-- Bulb 9 -->
+  <circle cx="880" cy="178" r="11" fill="url(#bulbGlow)" />
+  <circle cx="880" cy="178" r="5" fill="#fef08a" />
+  <line x1="880" y1="170" x2="880" y2="174" stroke="#2b0d30" stroke-width="1.5" />
+</svg>

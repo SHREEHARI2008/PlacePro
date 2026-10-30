@@ -1,0 +1,70 @@
+# PlacePro - Campus Placement Management System
+# Git Ignore Configuration
+
+# ===============================
+# Java & Build Outputs
+# ===============================
+bin/
+target/
+build/
+out/
+*.class
+
+# Keep vendor JAR libraries in backend/lib
+!backend/lib/*.jar
+
+# ===============================
+# Node / Frontend Artifacts
+# ===============================
+node_modules/
+dist/
+dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===============================
+# Environment & Local Secrets
+# ===============================
+.env
+.env.*
+!.env.example
+
+# ===============================
+# IDE & Tooling Metadata
+# ===============================
+.idea/
+.vscode/
+*.iml
+.settings/
+.project
+.classpath
+.metadata/
+
+# ===============================
+# Operating System & Temp Files
+# ===============================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+*.log
+*.tmp
+*.temp
+*.swp
+*~
+
+# ===============================
+# Explicitly Tracked Assets
+# ===============================
+!*.sql
+!**/*.sql
+!README.md
+!CAMPUS_PLACEMENT_SYSTEM_DOCUMENTATION.md
